@@ -9,3 +9,11 @@ def get_formatted_text():
 print(get_formatted_text())
 
 
+def get_format_text(quote_1, quote_2, author):
+    '''Возвращает аккуратно отформатированный текст'''
+    return f"'{quote_1.capitalize()}...\n {quote_2}.'\n\t\t\t\t\t\t\t {author}"
+
+
+print(get_format_text("dont compare yourself with anyone in this word",
+                      "if you do so, you are insulting yourself",
+                      "Bill Gates"))
